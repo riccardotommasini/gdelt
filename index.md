@@ -18,7 +18,7 @@ to either run their analysis via the pay-per-use service or stick with the provi
 
 ![Branching](./assets/images/lc.png)
 
-## Step 0 - URI Design
+## Step 0 - Naming Things
 
 We designed GDELT Stream URIs accordingly to [W3C recommendations](https://www.w3.org/TR/cooluris/#cooluris).
 
@@ -30,17 +30,35 @@ We designed GDELT Stream URIs accordingly to [W3C recommendations](https://www.w
 -  http://gdelt.stream/time refers to time instants
 
 
-## Step 1 - Domain Modeling
-
-
- [CAMEO Ontology](./assets/ontologies/cameo.owl)
-
-
-## Step 2 - Annotation and Conversion
+## Step 1 - Modeling the Domain
 
 
 
-## Step 3 - Publication
+
+[CAMEO Ontology OWL File](./assets/ontologies/cameo.owl)
+
+## Step 2 - Describe the Stream
+
+We used VoCaLS to describe GDELT streams. Listing 1.1 shows an example of description for the
+GDELT Event Stream. In
+VoCaLS, a Web Stream is represented using vocals:Stream,
+i.e., an unbounded sequence
+of data items that might be
+accessible on the Web. A
+vocals:StreamDescriptor, i.e,
+a HTTP-accessible document
+that contains stream metadata. Finally, the stream content can be consumed
+via a vocals:StreamEndpoint, that refer to actual sources using dcat:accessURL
+property. GDELT does not use a licence format, thus we include a licence that
+is compliant with the terms of use.
+
+## Step 3 -  Annotate and Covert
+
+
+
+
+
+## Step 4 - Publish the Stream
 
 
 # GDELT Streams
