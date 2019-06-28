@@ -2,6 +2,18 @@
 layout: default
 ---
 
+# GDELT Project Description
+
+The Global Database of Events, Language & Tone [ (GDELT) project] (www.gdeltproject.org)
+is a family of vast and heterogeneous Web Streams that is considered as the largest
+open-access spatio-temporal archive for human society. Its Global Knowledge Graph spans
+more than 215 years and connects people, organizations, locations, all over the world.
+In particular, GDELT complex from a complex domain. It captures themes, images, and emotions
+into a single holistic global network. GDELT data can be accessed via Google Big Query or via
+a number APIs that run pre-defined analyses. Therefore, the interested researches are forced
+to either run their analysis via the pay-per-use service or stick with the provided APIs.
+
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
