@@ -2,6 +2,8 @@
 layout: default
 ---
 
+# Event Stream
+
 ## Description
 
 ### Prefixes
