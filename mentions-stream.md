@@ -7,6 +7,29 @@ layout: default
 
 ## Description
 
+### Prefixes
+```turtle
+
+@prefix : <https://www.gdelt.stream/vocab#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocals: <http://w3id.org/rsp/vocals#> .
+@prefix vprov: <http://w3id.org/rsp/vocals-prov#> .
+@prefix vsd: <http://w3id.org/rsp/vocals-sd#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix frmt: <http://www.w3.org/ns/formats/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix carml: <http://carml.taxonic.com/carml/> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+
+```
 
 ## Schema
 
@@ -19,15 +42,6 @@ layout: default
 ## Mapping [link](./assets/mappings/gdelt_mentions.ttl)
 
 ```turtle
-@prefix : <http://vocab.org/transit/terms/>.
-@prefix rr: <http://www.w3.org/ns/r2rml#>.
-@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
-@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
-@prefix gdelt: <http://gdelt.stream/vocab/>.
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
-@prefix carml: <http://carml.taxonic.com/carml/> .
-@prefix vocals: <http://w3id.org/rsp/vocals#> .
 
 <#GDELTMapping> a rr:TriplesMap ;
   rml:logicalSource [
@@ -178,8 +192,6 @@ layout: default
 ## Annotated Data
 
 ```turtle
-< @prefix gdelt: <http://gdelt.stream/vocab/> .
-
 <http://gdelt.stream/inst/835296993> a gdelt:Mention;
   gdelt:actionCharOffset "643";
   gdelt:actorCharOffset "-1", "566";
@@ -253,8 +265,6 @@ layout: default
 
 ## S-GRAPH [link](./assets/vocals/mentions.ttl)
 ```turtle
-
-
 <http://gdelt.stream/mentions> a vocals:StreamDescriptor  ;
     dcat:dataset <http://localhost:80/mentions>  .
 
