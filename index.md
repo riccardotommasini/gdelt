@@ -60,6 +60,34 @@ is compliant with the terms of use.
 
 ## Step 4 - Publish the Stream
 
+The unbounded nature of Streaming Linked Data makes it impossible to
+directly add a data stream to the LOD Cloud [9, 7]. However, using an RSP
+Engine that focus on RDF Stream provisioning like TripleWave [7], one can
+publish a stream describing useing VoCaLS. TripleWave relises on Barbieri et
+al’s vision [2] of serving a ”static” named graph called S-Graph via REST API,
+to identify and describe the streams. Moroever, they envisioned that the stream
+elements an RDF Graph are called I-Graphs. We shared the VoCALS description
+files like the one in Listing 1.1 as S-GRAPH via REST APIs. Since the concept of
+event is first-class, we opted for a graph-based stream data model that maintains
+the granularity of information.
+
+
+Code to run a local version of GDELT RDF Stream can be found [here](https://www.dropbox.com/s/i3nlitlh9e9nqyh/webstreams.zip?dl=0)
+A comprehensive guide to how to build and run the code above is available [here](https://www.dropbox.com/s/7j2r7x5h91zpbiq/README.md?dl=0)
+
+Alternatively, GDELT RDF Streams mirrors can be run using docker
+
+
+‘‘‘
+
+docker run -p 8080:8080 -p 80:80 streamreasoning/webstreams_gdelt_{name}
+
+‘‘‘
+
+name:
+    - events
+    - mentions
+    - gkg
 
 # GDELT Streams
 
