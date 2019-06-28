@@ -37,7 +37,7 @@ layout: default
 | STRING      | INTEGER  | INTEGER                    | STRING           | STRING             | STRING   | STRING   | STRING   | STRING   | STRING    | STRING      | STRING   | STRING    | STRING        | STRING          | STRING   | STRING   | STRING   | STRING       | STRING        | STRING            | STRING            | STRING     | STRING   | STRING   | STRING          | STRING   |
 | NULLABLE    | NULLABLE | NULLABLE                   | NULLABLE         | NULLABLE           | NULLABLE | NULLABLE | NULLABLE | NULLABLE | NULLABLE  | NULLABLE    | NULLABLE | NULLABLE  | NULLABLE      | NULLABLE        | NULLABLE | NULLABLE | NULLABLE | NULLABLE     | NULLABLE      | NULLABLE          | NULLABLE          | NULLABLE   | NULLABLE | NULLABLE | NULLABLE        | NULLABLE |
 
-## Mapping
+## Mapping [link](./assets/mappings/gdelt_gkg.ttl)
 ```turtle
 <streamSource> rml:referenceFormulation ql:CSV ;
                rml:source [  a vocals:Stream ;
@@ -423,7 +423,7 @@ layout: default
     <http://none.com/20190329000000> .
 ```
 
-## S-GRAPH
+## S-GRAPH [link](./assets/vocals/gkg.ttl)
 ```turtle
 
 http://gdelt/stream/gkg> a vocals:StreamDescriptor , vsd:CatalogService ;
