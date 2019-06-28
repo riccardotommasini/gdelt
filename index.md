@@ -14,6 +14,29 @@ a number APIs that run pre-defined analyses. Therefore, the interested researche
 to either run their analysis via the pay-per-use service or stick with the provided APIs.
 
 
+# Publication Guidelines
+
+![Branching](./assets/images/lc.png)
+
+## Step 0 - URI Design
+
+We designed GDELT Stream URIs accordingly to W3C recommendations.
+
+-  http://gdelt.stream/vocab# refers to GDELT native vocabulary (e.g. gdelt:Event, gdelt:Mention)
+-  http://gdelt.stream/onto/cameo# refers to the OWL 2 version of the CAMEO ontology
+-  http://gdelt.stream/onto/gcam# refers to the OWL 2 version of the GCAM ontology
+
+-  http://gdelt.stream/ist/ refers to individual instances, e.g. an Actor or an Event
+-  http://gdelt.stream/time refers to time instants
+
+## Step 1 - Domain Modeling
+
+## Step 2 - Annotation and Conversion
+
+## Step 3 - Publication
+
+
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
