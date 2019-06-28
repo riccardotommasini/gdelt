@@ -1,5 +1,4 @@
 title: GDELT Stream Main Page
-logo: /assets/img/logo.png
 description: GDELT Provisioning as RDF Stream
 show_downloads: false
 theme: jekyll-theme-minimal
