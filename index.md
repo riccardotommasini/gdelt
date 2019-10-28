@@ -13,7 +13,9 @@ into a single holistic global network. GDELT data can be accessed via Google Big
 a number APIs that run pre-defined analyses. Therefore, the interested researches are forced
 to either run their analysis via the pay-per-use service or stick with the provided APIs.
 
+# ISWC Poster Paper
 
+[Download Preprint](./assets/pdf/poster464.pdf)
 # Publication Guidelines
 
 ![Branching](./assets/images/lc.png)
